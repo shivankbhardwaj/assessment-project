@@ -9,7 +9,7 @@ function show()
     if(city != '')
       {
         $.ajax({
-            url: 'https://api.openweathermap.org/data/2.5/forecast?q='+c+','+countrycode+'&mode=xml'+'&APPID=d22bdd8f42f4fc713ac197a8cbf0eaec',
+            url: 'https://api.openweathermap.org/data/2.5/forecast?q='+c+','+countrycode+'&mode=xml'+'&APPID=4da9127678f5e5737355b756bdd270a4',
             type:"GET",
             dataType:"jsonp",
             success: function(data){

@@ -9,7 +9,7 @@ function show()
     if(city != '')
       {
         $.ajax({
-            url: 'http://api.openweathermap.org/data/2.5/forecast?q='+c+','+countrycode+'&mode=xml'+'&APPID=d22bdd8f42f4fc713ac197a8cbf0eaec',
+            url: 'https://api.openweathermap.org/data/2.5/forecast?q='+c+','+countrycode+'&mode=xml'+'&APPID=d22bdd8f42f4fc713ac197a8cbf0eaec',
             type:"GET",
             dataType:"jsonp",
             success: function(data){
@@ -28,7 +28,7 @@ function show()
         var c = $("#cityname").val();    
           //getting city name
             $.ajax({
-                url:"http://api.openweathermap.org/data/2.5/weather?q="+c+"&units="+a+
+                url:"https://api.openweathermap.org/data/2.5/weather?q="+c+"&units="+a+
                 "&APPID=4da9127678f5e5737355b756bdd270a4",              // url and key
                 type:"GET",
                 datatype:"jsonp",           //data type
@@ -39,7 +39,7 @@ function show()
                     document.getElementById("value").innerHTML=data.main.temp;         // temperature
                    document.getElementById("cld").innerHTML=data.weather[0].main;         // cloud
                     document.getElementById("city").innerHTML=data.name+" , "+data.sys.country;        //country and place
-                var icon="http://api.openweathermap.org/img/w/"+data.weather[0].icon+".png";
+                var icon="https://api.openweathermap.org/img/w/"+data.weather[0].icon+".png";
                                 //getting cloud image link
                 document.getElementById("icon").src=icon;  
             

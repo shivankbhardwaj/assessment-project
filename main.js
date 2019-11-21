@@ -29,7 +29,7 @@ function show()
           //getting city name
             $.ajax({
                 url:"http://api.openweathermap.org/data/2.5/weather?q="+c+"&units="+a+
-                "&APPID=d22bdd8f42f4fc713ac197a8cbf0eaec",              // url and key
+                "&APPID=4da9127678f5e5737355b756bdd270a4",              // url and key
                 type:"GET",
                 datatype:"jsonp",           //data type
                 success:function(data)

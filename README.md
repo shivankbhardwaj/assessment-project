@@ -19,4 +19,4 @@
 
 ## Links For Live Websites
 * myResume          https://shivankbhardwaj.github.io/  
-* assessment-project  
+* assessment-project  https://shivankbhardwaj.github.io/assessment-project/

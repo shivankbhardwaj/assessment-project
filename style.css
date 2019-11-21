@@ -1,0 +1,93 @@
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  font-family: 'Helvetica Neue' , sans-serif; 
+  scroll-behavior: smooth;
+}
+
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   color: white;
+}
+
+.content {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 40px;
+    height: 550px;
+    width: 550px;
+    margin: 100px auto;
+}
+
+#city {
+    font-size: 40px;
+}
+
+#cityname {
+    width: 10em;
+    height: 2em;
+    font-size: 26px;
+}
+
+#countrycode {
+    width: 10em;
+    height: 2em;
+    font-size: 26px;
+
+}
+
+#submitBtn {
+    width: 8em;
+    height: 1.5em;
+    font-size: 15px;
+    align-items: center;
+}
+
+button {
+    border: outset;
+    width: 4em;
+    height: 4em;
+    margin-left: 1em;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: black;
+    padding: 0.1rem;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+    margin: 5px;
+
+}
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar h5 a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin:0 0.5rem;
+    border-radius: 5px;
+    transition: background-color -3s;
+}
+#navbar li a {
+    color:white;
+     
+}
+
+#wj {
+    color: white;
+    font-size: 20px;
+}
+
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WEATHERJACK</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<nav id="navbar">
+        <h5><p id="wj">WEATHERJACK</p></h5>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#con">Weather</a></li>
+        </ul>
+    </nav>
+    <div class="content" id="con">
+    	<div id="city">CITY</div>
+    	<h2 id="day&time"></h2>                          
+    	<div id="cld"></div>
+        <img id="icon" src="" border="5">
+        <div id="population"></div>
+        <br>
+            <button id="celcius">C</button>&nbsp;
+            <button  id="farenheit">F</button> 
+            <h1 id="value"></h1>
+        <br>
+            <input type="text" id="cityname" placeholder=" CITY"><br><br> 
+            <input type="text" id="countrycode" placeholder=" COUNTRYCODE">
+        <br>
+        <br>
+        <input type="submit" id="submitBtn" value=" SUBMIT">
+        <h4 id="feedback"></h4>                              
+    </div>
+	</body>
+</html>
